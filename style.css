@@ -1,0 +1,32 @@
+.contact {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.contact-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.contact-buttons a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.whatsapp-button {
+    background-color: #25D366; /* لون واتساب */
+}
+
+.telegram-button {
+    background-color: #0088cc; /* لون تيليجرام */
+}
+
+.whatsapp-button:hover, .telegram-button:hover {
+    opacity: 0.8;
+  }
