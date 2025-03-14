@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منتجاتنا - متجر الطموح الإلكتروني</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>منتجاتنا</h1>
+
+        <!-- قائمة التنقل -->
+        <nav>
+            <ul>
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="login.html">تسجيل الدخول</a></li>
+                <li><a href="register.html">إنشاء حساب</a></li>
+            </ul>
+        </nav>
+
+        <!-- المنتج الأول -->
+        <div class="product">
+            <img src="design1.jpg" alt="تصميم 1" class="product-image">
+            <h2>تصميم احترافي 1</h2>
+            <p>وصف التصميم الأول.</p>
+            <p class="price">السعر: 100 ريال</p>
+            <button onclick="addToCart('تصميم احترافي 1', 100)">🛒 إضافة إلى السلة</button>
+        </div>
+
+        <!-- المنتج الثاني -->
+        <div class="product">
+            <img src="design2.jpg" alt="تصميم 2" class="product-image">
+            <h2>تصميم احترافي 2</h2>
+            <p>وصف التصميم الثاني.</p>
+            <p class="price">السعر: 150 ريال</p>
+            <button onclick="addToCart('تصميم احترافي 2', 150)">🛒 إضافة إلى السلة</button>
+        </div>
+
+        <footer>
+            <p>© 2025 جميع الحقوق محفوظة متجر الطموح الإلكتروني</p>
+        </footer>
+    </div>
+
+    <script>
+        function addToCart(productName, price) {
+            alert(productName + " تمت إضافته إلى السلة بسعر " + price + " ريال.");
+        }
+    </script>
+</body>
+  </html>
